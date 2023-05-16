@@ -25,33 +25,7 @@ The application consumes the Postcode Web API to retrieve postcode data.
 Web API - https://g8w4x6soxi.execute-api.us-east-1.amazonaws.com/Prod/swagger/index.html  
 
 https://postcodes.io/ (External api)
-It is always a good practice to have a well-organized project folder structure for a loosely coupled architecture. Please check below structure for the reference.
-
-src/
-├── api-config/
-         config.js
-         
-├── modules
-         Grid 
-         
-├── test/
-        PostalCodeGrid.test
-        
-├── pages/
-        PostalCodeGrid  
-        
-
-├── utils/
-        Logger.js
-        
-        postalCodeLookup.js 
-
-└── common/
-
-        header/
-        
-        footer/
-
+It is always a good practice to have a well-organized project folder structure for a loosely coupled architecture. Implemented ReactJS component structure strategy.
 
 Ag Grid Web Application
 This is a web application built with the following features:
@@ -60,6 +34,8 @@ Data loading into an ag grid table
 Filter and pagination functionality
 Hosted on AWS S3
 Adherence to SOLID principles
+
+ JEST framework, along with the React Testing Library, used for mocking services in this React application.
 
 Features
 Data loading into ag grid
@@ -98,6 +74,7 @@ The below fields are used in the context of postcode lookup or address search fu
 **Country**
 
 **Area**
+
 **Parliamentary Constituency**
 
 **Admin District**
