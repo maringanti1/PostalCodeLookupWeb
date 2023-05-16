@@ -1,0 +1,37 @@
+
+.header {
+  background-color: #b9b912;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.footer {
+  background-color: #72a5e0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.title {
+  margin: 0;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.item {
+  margin-right: 1rem;
+  font-size: large;
+}

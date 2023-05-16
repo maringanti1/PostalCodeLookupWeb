@@ -1,0 +1,94 @@
+.gridWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: "auto";
+  
+}
+
+.ag-theme-custom {
+  background-color: #884646;
+  border: 1px solid #9c85c2;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.grid {
+  height: 500;
+  width: 1050;
+  border: 1px solid #350808 !important;
+  border-radius: 5px !important;
+  font-size: 22px !important;
+  padding: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  width: 60% !important;
+
+}
+
+.searchInput {
+  border: 1px solid #a59292 !important;
+  border-radius: 5px !important;
+  font-size: 22px !important;
+  padding: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  width: 60% !important;
+}
+
+.ag-root {
+  width: 100%;
+}
+
+.ag-header {
+  background-color: #a7c2e6;
+  color: #01090a;
+  font-size: large;
+  
+  
+}
+
+.ag-icon {
+  color: #96aac2;
+}
+
+.ag-row-even {
+  background-color: rgb(190, 179, 201);
+}
+
+.ag-row-odd {
+  background-color: #c59999;
+}
+
+.ag-cell {
+  padding: 0.5rem;
+}
+
+.ag-paging-panel {
+  background-color: #9c85c2;
+  border: none;
+}
+
+.ag-paging-page-summary-panel {
+  border: none;
+}
+
+.ag-paging-page-summary-panel > span {
+  font-size: 0.8rem;
+}
+
+.ag-paging-button {
+  background-color: #615a5c;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.ag-paging-button:hover {
+  background-color: #d4d3cc;
+}

@@ -1,0 +1,10 @@
+{
+  "postcodeapi_baseurl": { 
+    "type": "string",
+    "value": "https://g8w4x6soxi.execute-api.us-east-1.amazonaws.com/Prod/api/PostCodesLookup" 
+  },
+  "autocomplete": { 
+    "type": "string",
+    "value": "/autocomplete/"
+  } 
+}
